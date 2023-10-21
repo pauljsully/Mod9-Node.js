@@ -108,8 +108,8 @@ inquirer
 
         const htmlREADMEContent = questions(data)
 
-        fs.writeFile('README.md', htmlREADMEContent, (err) =>
-      err ? console.log(err) : console.log('Successfully created README.md!')
+        fs.writeFile('exREADME.md', htmlREADMEContent, (err) =>
+      err ? console.log(err) : console.log('Successfully created exREADME.md!')
     );
           
 })
