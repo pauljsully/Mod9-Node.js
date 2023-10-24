@@ -26,7 +26,7 @@ Used W3 Schools (https://www.w3schools.com/)
 
 ## Assets
 
-The following image demonstrates the web application's appearance:
+The following video deminstrated how to use the application (download the video):
 
 <iframe src="https://drive.google.com/file/d/1EgNWjoTF2DV-Skez-knbr3ENyAo3e8cB/preview" width="640" height="480"></iframe>
 
