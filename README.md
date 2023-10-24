@@ -1,21 +1,29 @@
 # Mod9-Node.js
 
-We want to build an application that allows you track calorie intake and calories burned for the day. This will help reach or maintain individual fitness goals of a user. There will be resources available for users to use in conjunction with achieving health goals.
+We want to build an application that creates a README for you. So that I can quickly create a professional README for a new project.
 
 ## Acceptance Criteria
 
-* It is done when the user can input each individual food consumed for the day and have the calories for that food dispalyed for them.
-
-* It is done when the user can input each individual actvity for the day and have the calories burned for that activity dispalyed for them.
-
-* It is done when when the user can see total daily calories for the user after subtracting the calories burned from the calories consumed.
-
-* It is done when there are clickable health reasources for the user to use.
+    GIVEN a command-line application that accepts user input
+    WHEN I am prompted for information about my application repository
+    THEN a high-quality, professional README.md is generated with the title of my project and sections entitled Description, Table of Contents, Installation, Usage, License, Contributing, Tests, and Questions
+    WHEN I enter my project title
+    THEN this is displayed as the title of the README
+    WHEN I enter a description, installation instructions, usage information, contribution guidelines, and test instructions
+    THEN this information is added to the sections of the README entitled Description, Installation, Usage, Contributing, and Tests
+    WHEN I choose a license for my application from a list of options
+    THEN a badge for that license is added near the top of the      README and a notice is added to the section of the README entitled License that explains which license the application is covered under
+    WHEN I enter my GitHub username
+    THEN this is added to the section of the README entitled Questions, with a link to my GitHub profile
+    WHEN I enter my email address
+    THEN this is added to the section of the README entitled Questions, with instructions on how to reach me with additional questions
+    WHEN I click on the links in the Table of Contents
+    THEN I am taken to the corresponding section of the README  
 
 
 ## ReadME
 
-In this project we were able to use our skills learned from our first 6 weeks to produce and application using html, css, and javascript frameworks. We learned to collaborate in a group setting, while all having different tasks to complete idividually.
+In this project we are able to use our skills on Node.js to create prompts and write files to produce an exREADME.md. The code for this project can be found in the index.js file. Open an itegrated teminal and begin creating your README.
 
 ## Notes
 
@@ -33,6 +41,6 @@ The following video deminstrated how to use the application (download the video)
 
 This is the github repo location:
 
-https://github.com/TheYenMan/project-1-dietninja-main.git
+https://github.com/pauljsully/Mod9-Node.js.git 
 
-This following is a link to the deployed application:
+
