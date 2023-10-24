@@ -4,7 +4,7 @@ const fs = require('fs');
 
 
 // TODO: Create an array of questions for user input
-const questions = ({ title, description, installation, usage, license, contributing, tests, questions }) =>
+const questions = ({ title, description, installation, usage, license, contributing, tests, username, email }) =>
 `
 ![badge](https://img.shields.io/badge/license-${license}-brightgreen)
 
@@ -16,9 +16,9 @@ const questions = ({ title, description, installation, usage, license, contribut
 2. [Installation](#installation)
 3. [Usage](#usage)
 4. [License](#license)
-5. [Contribution Guidlines](#contribution)
+5. [Contribution](#contribution)
 6. [Test](#test)
-7. [Link](#link)
+7. [Questions](#questions)
    
 ## Description
         
@@ -36,7 +36,7 @@ ${usage}
 
 This application is covered by the ${license} license. 
 
-## Contribution Guidlines
+## Contribution
         
 ${contributing}
 
@@ -44,9 +44,13 @@ ${contributing}
         
 ${tests}
 
-## Link
+## Questions
 
-(${questions})
+GitHub Profile:
+(https://github.com/${username})
+
+Contact me:
+(${email})
 
 `;
 
@@ -98,8 +102,13 @@ inquirer
           },
           {
             type: 'input',
-            name: 'questions',
-            message: 'Enter your GitHub repo URL:',
+            name: 'username',
+            message: 'Enter your GitHub repo username:',
+          },
+          {
+            type: 'input',
+            name: 'email',
+            message: 'Enter your email:',
           },
 
         ])
