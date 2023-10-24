@@ -25,6 +25,8 @@ We want to build an application that creates a README for you. So that I can qui
 
 In this project we are able to use our skills on Node.js to create prompts and write files to produce an exREADME.md. The code for this project can be found in the index.js file. Open an itegrated teminal and begin creating your README.
 
+Click on the link in the Assets(#assets) section to see a preview.
+
 ## Notes
 
 Used Google (https://www.google.com/)
